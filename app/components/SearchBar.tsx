@@ -9,6 +9,7 @@ export default function SearchBar({
 }: {
   colleges: any[];
 }) {
+  console.log(colleges);
   const [search, setSearch] = useState("");
   const [sortBy, setSortBy] = useState("");
   const [cityFilter, setCityFilter] = useState("");
